@@ -1,6 +1,6 @@
 # Linux Project for commands
 
-## Commonds for File Manipulation
+## Commands for File Manipulation
 
 1. The command `sudo apt upgrade`: short for superuser do, sudo is one of the most popular Linux commands that lets you perform tasks that require administrative or root permissions.
 
