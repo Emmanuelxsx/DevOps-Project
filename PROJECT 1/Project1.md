@@ -16,7 +16,7 @@
 
 ![Alt text](<images/cd CommandsLinux.png>)
 
-![Alt text](<images/cd CommandsLinux2.png>)
+![Alt text](<images/cd  CommandsLinux2.png>)
 
 4. the command `ls`
 
