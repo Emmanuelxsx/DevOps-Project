@@ -3,10 +3,11 @@
 ## Commonds for File Manipulation
 
 Running the command `sudo apt upgrade`
-![Alt text](<sudo apt upgrade.png>)
+
+![png](<sudo apt upgrade.png>)
 
 the command `pwd`
-![Alt text](pwd.png)
+![Alt txet](pwd.png)
 ![Alt text](<pwd [option].png>)
 
 the command `cd`
