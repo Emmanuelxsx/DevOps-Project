@@ -4,67 +4,67 @@
 
 Running the command `sudo apt upgrade`
 
-![png](<sudo apt upgrade.png>)
+![Alt text](<images/sudo apt upgrade.png>)
 
 the command `pwd`
-![Alt txet](pwd.png)
-![Alt text](<pwd [option].png>)
+![Alt txet](images/pwd.png)
+![Alt text](<images/pwd [option].png>)
 
 the command `cd`
-![Alt text](<cd CommandsLinux.png>)
+![Alt text](<images/cd CommandsLinux.png>)
 ![Alt text](<cd  CommandsLinux2.png>)
 
 the command `ls`
-![Alt text](ls.png)
-![Alt text](<ls [option].png>)
+![Alt text](images/ls.png)
+![Alt text](<images/ls [option].png>)
 
 the command `cat`
-![Alt text](<cat sqlite_commands.sh.png>)
+![Alt text](<images/cat sqlite_commands.sh.png>)
 
 the command `cp`
-![Alt text](cp.png)
-![Alt text](cp1.png)
+![Alt text](images/cp.png)
+![Alt text](images/cp1.png)
 
 the command `mv`
-![Alt text](mv.png)
-![Alt text](<mv (rename).png>)
+![Alt text](images/mv.png)
+![Alt text](<images/mv (rename).png>)
 
 the command `mkdir`
-![Alt text](mkdir.png)
-![Alt text](mkdir2.png)
+![Alt text](images/mkdir.png)
+![Alt text](images/mkdir2.png)
 
 the command `rmdir`
-![Alt text](<rm -p.png>)
+![Alt text](<images/rm -p.png>)
 
 the command `rm`
-![Alt text](rm.png)
+![Alt text](images/rm.png)
 
 the command `touch`
-![Alt text](touch.png)
+![Alt text](images/touch.png)
 
 the command `locate`
-![Alt text](<locate command.png>)
+![Alt text](<images/locate command.png>)
 
 the command `find`
-![Alt text](find.png)
+![Alt text](images/find.png)
 
 the command `grep`
-![Alt text](grep.png)
+![Alt text](images/grep.png)
 
 the command `df`
-![Alt text](<df command.png>)
+![Alt text](<images/df command.png>)
 
 the command `du`
-![Alt text](<du command.png>)
+![Alt text](<images/du command.png>)
 
 the command `head`
-![Alt text](<head command.png>)
+![Alt text](<images/head command.png>)
 
 the command `tail`
-![Alt text](<tail command.png>)
+![Alt text](<images/tail command.png>)
 
 the command `diff`
-![Alt text](<diff command.png>)
+![Alt text](<images/diff command.png>)
 
 the command `tar`
 ![Alt text](<tar command.png>)
@@ -72,70 +72,70 @@ the command `tar`
 ## Commands for File Permissions and Ownership
 
 the command `chmod`
-![Alt text](<chmod command.png>)
+![Alt text](<images/chmod command.png>)
 
 the command `chown`
-![Alt text](<chown command.png>)
+![Alt text](<images/chown command.png>)
 
 the command `jobs`
-![Alt text](<jobs commands.png>)
+![Alt text](<images/jobs commands.png>)
 
 the command `kill`
-![Alt text](<kill command.png>)
+![Alt text](<images/kill command.png>)
 
 the command `ping`
-![Alt text](<ping command.png>)
+![Alt text](<images/ping command.png>)
 
 the command `wget`
-![Alt text](<wget command.png>)
+![Alt text](<images/wget command.png>)
 
 the command `uname`
-![Alt text](<uname command.png>)
+![Alt text](<images/uname command.png>)
 
 the command `top`
-![Alt text](<top command.png>)
+![Alt text](<images/top command.png>)
 
 the command `history`
-![Alt text](<history command.png>)
+![Alt text](<images/history command.png>)
 
 the command `man`
-![Alt text](<man ls.png>)
-![Alt text](<man 2 ls.png>)
+![Alt text](<images/man ls.png>)
+![Alt text](<images/man 2 ls.png>)
 
 the command `echo`
-![Alt text](echo.png)
+![Alt text](images/echo.png)
 
 the command `zip` and `unzip`
-![Alt text](<zip & unzip command.png>)
+![Alt text](<images/zip & unzip command.png>)
 
 the command `hostname`
-![Alt text](<hostname command.png>)
+![Alt text](<images/hostname command.png>)
 
 the command `useradd` and `userdel`
-![Alt text](<useradd & userdel command.png>)
+![Alt text](<images/useradd & userdel command.png>)
 
 the command `apt-get`
-![Alt text](<apt-get command.png>)
+![Alt text](<images/apt-get command.png>)
 
 the command `nano` and `vi`
-![Alt text](<nano command.png>)
-nano GUI
-![Alt text](<nano GUI.png>)
-vi
-![Alt text](<vi command.png>)
-vi GUI
-![Alt text](<vi GUI.png>)
+`nano`
+![Alt text](<images/nano command.png>)
+![Alt text](<images/nano GUI.png>)
+
+`vi`
+![Alt text](<images/vi command.png>)
+![Alt text](<images/vi GUI.png>)
 
 the command `alias` & `unalias`
-![Alt text](<alias & unalias.png>)
+![Alt text](<images/alias & unalias.png>)
 
 the command `su`
-![Alt text](<su command.png>)
+![Alt text](<images/su command.png>)
 
 the command `htop`
-![Alt text](<htop [option].png>)
-![Alt text](<htop -C.png>)
-![Alt text](<htop -h.png>)
+![Alt text](<images/htop [option].png>)
+![Alt text](<images/htop -C.png>)
+![Alt text](<images/htop -h.png>)
 
 the command `ps`
-![Alt text](<ps command.png>)
+![Alt text](<images/ps command.png>)
