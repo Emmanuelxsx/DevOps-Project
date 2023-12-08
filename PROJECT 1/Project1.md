@@ -7,7 +7,9 @@ Running the command `sudo apt upgrade`
 ![Alt text](<images/sudo apt upgrade.png>)
 
 the command `pwd`
+
 ![Alt txet](images/pwd.png)
+
 ![Alt text](<images/pwd [option].png>)
 
 the command `cd`
