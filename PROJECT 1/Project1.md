@@ -2,163 +2,163 @@
 
 ## Commonds for File Manipulation
 
-Running the command `sudo apt upgrade`
+1. Running the command `sudo apt upgrade`
 
 ![Alt text](<images/sudo apt upgrade.png>)
 
-the command `pwd`
+2. the command `pwd`
 
 ![Alt txet](images/pwd.png)
 
 ![Alt text](<images/pwd [option].png>)
 
-the command `cd`
+3. the command `cd`
 
 ![Alt text](<images/cd CommandsLinux.png>)
 
-![Alt text](<cd  CommandsLinux2.png>)
+![Alt text](<images/cd CommandsLinux2.png>)
 
-the command `ls`
+4. the command `ls`
 
 ![Alt text](images/ls.png)
 
 ![Alt text](<images/ls [option].png>)
 
-the command `cat`
+5. the command `cat`
 
 ![Alt text](<images/cat sqlite_commands.sh.png>)
 
-the command `cp`
+6. the command `cp`
 
 ![Alt text](images/cp.png)
 
 ![Alt text](images/cp1.png)
 
-the command `mv`
+7. the command `mv`
 
 ![Alt text](images/mv.png)
 
 ![Alt text](<images/mv (rename).png>)
 
-the command `mkdir`
+8. the command `mkdir`
 
 ![Alt text](images/mkdir.png)
 
 ![Alt text](images/mkdir2.png)
 
-the command `rmdir`
+9. the command `rmdir`
 
 ![Alt text](<images/rm -p.png>)
 
-the command `rm`
+10. the command `rm`
 
 ![Alt text](images/rm.png)
 
-the command `touch`
+11. the command `touch`
 
 ![Alt text](images/touch.png)
 
-the command `locate`
+12. the command `locate`
 
 ![Alt text](<images/locate command.png>)
 
-the command `find`
+13. the command `find`
 
 ![Alt text](images/find.png)
 
-the command `grep`
+14. the command `grep`
 
 ![Alt text](images/grep.png)
 
-the command `df`
+15. the command `df`
 
 ![Alt text](<images/df command.png>)
 
-the command `du`
+16. the command `du`
 
 ![Alt text](<images/du command.png>)
 
-the command `head`
+17. the command `head`
 
 ![Alt text](<images/head command.png>)
 
-the command `tail`
+18. the command `tail`
 
 ![Alt text](<images/tail command.png>)
 
-the command `diff`
+19. the command `diff`
 
 ![Alt text](<images/diff command.png>)
 
-the command `tar`
+20. the command `tar`
 
 ![Alt text](<tar command.png>)
 
 ## Commands for File Permissions and Ownership
 
-the command `chmod`
+21. the command `chmod`
 
 ![Alt text](<images/chmod command.png>)
 
-the command `chown`
+22. the command `chown`
 
 ![Alt text](<images/chown command.png>)
 
-the command `jobs`
+23. the command `jobs`
 
 ![Alt text](<images/jobs commands.png>)
 
-the command `kill`
+24. the command `kill`
 
 ![Alt text](<images/kill command.png>)
 
-the command `ping`
+25. the command `ping`
 
 ![Alt text](<images/ping command.png>)
 
-the command `wget`
+26. the command `wget`
 
 ![Alt text](<images/wget command.png>)
 
-the command `uname`
+27. the command `uname`
 
 ![Alt text](<images/uname command.png>)
 
-the command `top`
+28. the command `top`
 
 ![Alt text](<images/top command.png>)
 
-the command `history`
+29. the command `history`
 
 ![Alt text](<images/history command.png>)
 
-the command `man`
+30. the command `man`
 
 ![Alt text](<images/man ls.png>)
 
 ![Alt text](<images/man 2 ls.png>)
 
-the command `echo`
+31. the command `echo`
 
 ![Alt text](images/echo.png)
 
-the command `zip` and `unzip`
+32. the command `zip` and `unzip`
 
 ![Alt text](<images/zip & unzip command.png>)
 
-the command `hostname`
+33. the command `hostname`
 
 ![Alt text](<images/hostname command.png>)
 
-the command `useradd` and `userdel`
+34. the command `useradd` and `userdel`
 
 ![Alt text](<images/useradd & userdel command.png>)
 
-the command `apt-get`
+35. the command `apt-get`
 
 ![Alt text](<images/apt-get command.png>)
 
-the command `nano` and `vi`
+36. the command `nano` and `vi`
 
 ![`nano`](<images/nano command.png>)
 ![Alt text](<images/nano GUI.png>)
@@ -169,15 +169,15 @@ the command `nano` and `vi`
 
 ![Alt text](<images/vi GUI.png>)
 
-the command `alias` & `unalias`
+37. the command `alias` & `unalias`
 
 ![Alt text](<images/alias & unalias.png>)
 
-the command `su`
+38. the command `su`
 
 ![Alt text](<images/su command.png>)
 
-the command `htop`
+39. the command `htop`
 
 ![Alt text](<images/htop [option].png>)
 
@@ -185,6 +185,6 @@ the command `htop`
 
 ![Alt text](<images/htop -h.png>)
 
-the command `ps`
+40. the command `ps`
 
 ![Alt text](<images/ps command.png>)
