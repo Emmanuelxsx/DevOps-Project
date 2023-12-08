@@ -42,6 +42,8 @@ ls [option]
 
 ![Alt text](images/mv.png)
 
+mv (to rename file)
+
 ![Alt text](<images/mv (rename).png>)
 
 8. The command `mkdir`: use to create one or multiple directories at once and set permissions for each of them.
@@ -96,7 +98,7 @@ ls [option]
 
 20. The command `tar`: archives multiple files into a TAR file.
 
-![Alt text](<tar command.png>)
+![Alt text](<images/tar command.png>)
 
 ## Commands for File Permissions and Ownership
 
@@ -150,7 +152,7 @@ ls [option]
 
 ![Alt text](<images/zip & unzip command.png>)
 
-33. The command `hostname`: used to know the system's hostname
+33. The command `hostname [option]` : used to know the system's hostname
 
 ![Alt text](<images/hostname command.png>)
 
