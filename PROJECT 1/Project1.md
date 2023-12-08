@@ -1,4 +1,4 @@
-# Linux Project for commands
+# Documentation for Linux Practice Projects
 
 ## Commands for File Manipulation
 
