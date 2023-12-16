@@ -1,3 +1,4 @@
-# Linux Project for Commands
+# These following projects have been implemented
 
-Running Linux commands on Ubuntu server
+1. Linux commands
+2. Git Project
