@@ -44,9 +44,11 @@
 
 ![Alt text](<images/delete branch.png>)
 
-## ** Collaboration and Remote Repositories **
+## **Collaboration and Remote Repositories**
 
 1. Create a github account
+
+![Alt text](<images/git account.png>)
 
 2. Creating a new Repository
 
