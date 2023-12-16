@@ -1,3 +1,3 @@
-# Git Project-2
+# GIT PROJECT-2
 
 Git Implementation
