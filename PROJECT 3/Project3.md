@@ -46,7 +46,7 @@ Log into the MySQL console,
 
 `sudo mysql`
 
-and configuring a database user on and setting login password for Mysql respectively
+Next, configure a database user on and setting login password for Mysql
 
 `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';`
 
@@ -58,7 +58,7 @@ Start MYSQL Interactive script, prompting you to configure the validate password
 
 `sudo mysql_secure_installation`
 
-![Alt text](<images/setting up mysql through interactive script 2.png>)
+![Alt text](<images/setting mysql through interactive script 1.png>)
 ![Alt text](<images/setting up mysql through interactive script 2.png>)
 
 Confirm ability to login to Mysql running the command:
@@ -77,6 +77,12 @@ To exit the MySQL console, type:
 
 `sudo apt install php libapache2-mod-php php-mysql`
 
+![Alt text](<images/installing php libapache2-mode-php & php-mysql.png>)
+
+Confirm the php version
+
+`php -v`
+
 ![Alt text](<images/php version.png>)
 
 At this point, all 4 applications that make up the lamp stack have been successfully installed
@@ -86,7 +92,7 @@ At this point, all 4 applications that make up the lamp stack have been successf
 - MySQL
 - PHP
 
-## Creating a Virtual Host for my Website using Apache
+## Creating a Virtual Host for a Website using Apache
 
 Create directory called projectlamp
 
@@ -104,7 +110,7 @@ Create and open a new configuration file in Apache’s sites-available directory
 
 ![Alt text](<images/opening projectlamp.conf.jpg>)
 
-Paste in the following bare-bone configuration
+Paste in the following bare-bones configuration
 
 ```
 <VirtualHost *:80>
@@ -153,7 +159,7 @@ Create an index file in the projectlamp folder.
 
 ![Alt text](<images/create an index file in projectlamp.png>)
 
-Insert in this in the index.html file
+Insert this code in the index.html file
 
 ```
 sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html
@@ -209,10 +215,8 @@ Open on browser with the IP address/index.php:
 
 `http://<Public-IP-Address>:80/index.php`
 
-![Alt text](<images/result of index file on browser.png>)
+![Alt text](<images/php on browser.png>)
 
 After checking the relevant information, it is best to remove the file as it contains sensitive information about my PHP enviroment and my Ubuntu Server
 
 `sudo rm /var/www/projectlamp/index.php`
-
-![Alt text](<images/remove index.php file.png>)
