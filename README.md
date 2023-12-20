@@ -1,4 +1,5 @@
 # These following Projects have been Implemented
 
-1. Linux Practice Project
-2. Git Project
+1. LINUX PRACTICE PROJECT
+2. GIT PROJECT
+3. AWS-LAMP-STACK IMPLEMENTATION
