@@ -2,7 +2,7 @@
 
 # The Project shows how to Implement LAMP(Linux,Apache,Mysql,Php) on AWS
 
-After creating a new EC2 instance(an instance of a virtual server), connect to the instance using `ssh`
+After creating a new Ubuntu EC2 instance(an instance of a virtual server) on AWS, connect to the instance using `ssh`
 
 `ssh -i <private-key-name>.pem ubuntu@<Public-IP-address>`
 
@@ -10,9 +10,13 @@ After creating a new EC2 instance(an instance of a virtual server), connect to t
 
 ## Installing Apache and Updating the Firewall
 
-After launching the Ubuntu Virtual machine on AWS update it and install apache2:
+After launching the Ubuntu Virtual machine on AWS update it:
 
-`sudo apt update` & `sudo apt install apache2`
+`sudo apt update`
+
+Next, install apache2
+
+`sudo apt install apache2`
 
 ![Alt text](<images/sudo apt install apache2.png>)
 
@@ -73,7 +77,7 @@ To exit the MySQL console, type:
 
 ## Installing PHP
 
-3 packages will be installed namely php, libapache2-mod-php, php-mysql,by running this command to install all packages listed.
+3 packages will be installed namely php, libapache2-mod-php, php-mysql, by running this command to install all packages listed.
 
 `sudo apt install php libapache2-mod-php php-mysql`
 
@@ -85,7 +89,7 @@ Confirm the php version
 
 ![Alt text](<images/php version.png>)
 
-At this point, all 4 applications that make up the lamp stack have been successfully installed
+At this point, all 4 applications that make up the lamp stack have been successfully installed;
 
 - Linux
 - Apache Http Server
@@ -176,7 +180,6 @@ Open on browser and open the website URL using the IP address:
 ## Enable PHP on the website
 
 With the default DirectoryIndex settings on Apache, the index.html file takes precedence, it needs to be modified and give precedence to the index.php file.
-
 The /etc/apache2/mods-enabled/dir.conf file needs to be edited and changed the order in which the index.php file is listed within the DirectoryIndex directive:
 
 `sudo vim /etc/apache2/mods-enabled/dir.conf`
@@ -220,3 +223,5 @@ Open on browser with the IP address/index.php:
 After checking the relevant information, it is best to remove the file as it contains sensitive information about my PHP enviroment and my Ubuntu Server
 
 `sudo rm /var/www/projectlamp/index.php`
+
+![Alt text](<images/remove index.php file.png>)
