@@ -214,9 +214,9 @@ phpinfo();
 
 ![Alt text](<images/adding valid php code into index.php file.png>)
 
-Open on browser with the IP address/index.php:
+Open on browser with the IP address:
 
-`http://<Public-IP-Address>:80/index.php`
+`http://<Public-IP-Address>:80`
 
 ![Alt text](<images/php on browser.png>)
 
