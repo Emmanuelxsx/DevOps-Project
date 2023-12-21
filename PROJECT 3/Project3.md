@@ -220,7 +220,7 @@ Open on browser with the IP address:
 
 ![Alt text](<images/php on browser.png>)
 
-After checking the relevant information, it is best to remove the file as it contains sensitive information about my PHP enviroment and my Ubuntu Server
+After checking the relevant information, it is best to remove the file as it contains sensitive information about the PHP enviroment and the Ubuntu Server
 
 `sudo rm /var/www/projectlamp/index.php`
 
