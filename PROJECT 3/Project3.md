@@ -173,7 +173,7 @@ sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/met
 
 Open on browser and open the website URL using the IP address:
 
-`http://<Public-IP-Address>:80`
+`http://<Public-IP-Address>:80/index.html`
 
 ![Alt text](<images/result of index file on browser.png>)
 
