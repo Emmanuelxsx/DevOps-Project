@@ -135,7 +135,7 @@ list the new file in the sites-available directory.
 
 ![Alt text](<images/list sites-available directory.png>)
 
-Thus, we have set /var/www/projectlampl as the root directory for Projectlamp.
+Thus, we have set /var/www/projectlamp as the root directory for Projectlamp.
 
 Enable the new virtual host with the a2ensite command:
 
