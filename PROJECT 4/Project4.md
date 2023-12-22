@@ -24,6 +24,8 @@ Install Nginx with `apt install`
 
 Verify Nginx is up and running
 
+`sudo systemctl status nginx`
+
 ![Alt text](<images/verify nginx installation.png>)
 
 Open port 80 in the instance
@@ -32,9 +34,13 @@ Open port 80 in the instance
 
 Verify the web server is reachable from the localhost
 
+`curl http://localhost:80` or `curl http://127.0.0.1:80`
+
 ![Alt text](<images/accessing nginx locally on Ubuntu shell.png>)
 
 Access Nginx from browser
+
+`http://<Public-IP-Address>:80`
 
 ![Alt text](<images/accessing nginx on browser.png>)
 
@@ -50,9 +56,13 @@ Log into Mysql console
 
 Next, set root password for Mysql
 
+`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';`
+
 ![Alt text](<images/login to mysql shell.png>)
 
 Exit the MySQL shell with `exit`:
+
+`mysql> exit`
 
 ![Alt text](<images/exit console 1.png>)
 
