@@ -48,6 +48,8 @@ Access Nginx from browser
 
 Install MYSQL package using apt command
 
+`sudo apt install mysql-server`
+
 ![Alt text](<images/installing mysql.png>)
 
 Log into Mysql console
@@ -148,6 +150,8 @@ Activate the configuration by linking to the config file from Nginx's `sites-ena
 
 Test the configuraton for syntax errors:
 
+`sudo nginx -t`
+
 ![Alt text](<images/test config file for syntax error.png>)
 
 Disable Nginx host that is currently configured to listen on port 80, for this run:
@@ -158,9 +162,13 @@ Disable Nginx host that is currently configured to listen on port 80, for this r
 
 Reload Nginx to apply the changes:
 
+`sudo systemctl reload nginx`
+
 ![Alt text](<images/reload nginx to apply changes.png>)
 
 Open the website URL from the browser using IP address
+
+`http://<Public-IP-Address>:80`
 
 ![Alt text](<images/opening index.html website URL on browser.png>)
 
@@ -183,6 +191,8 @@ phpinfo();
 
 Open on browser the webpage containing detailed information about the server by visiting the public address set up in the Nginx config file followed by /info.php:
 
+`http://`server_domain_or_IP`/info.php`
+
 ![Alt text](<images/opening info.php on browser.png>)
 
 ### Retrieving Data from Mysql Database with PHP
@@ -203,7 +213,7 @@ Create a new user and grant full privileges on the database that have just been 
 
 `mysql>  CREATE USER 'test_user'@'%' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';`
 
-Give this user permission over the `example_database` database:
+Next, give this user permission over the `example_database` database:
 
 `mysql> GRANT ALL ON example_database.* TO 'example_user'@'%';`
 
@@ -221,11 +231,15 @@ Test the new user has the proper permissions by logging into the MySQL console a
 
 ![Alt text](<images/logining in to the new user(example_user).png>)
 
-Confirm access to the `example_user`
+Confirm access to the `example_database`
+
+`mysql> SHOW DATABASES;`
 
 ![Alt text](<images/show database of example_user.png>)
 
 Next, Create a test table named todo_list with the following statement:
+
+`mysql> CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT,content VARCHAR(255),PRIMARY KEY(item_id));`
 
 ```
 CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT,content VARCHAR(255),PRIMARY KEY(item_id));
@@ -236,8 +250,11 @@ CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT,content VARC
 Insert a few rows of content in the table:
 
 `mysql> INSERT INTO example_database.todo_list (content) VALUES ("My first important item");`
+
 `mysql> INSERT INTO example_database.todo_list (content) VALUES ("My second database item");`
+
 `mysql> INSERT INTO example_database.todo_list (content) VALUES ("My third database item")`
+
 `mysql> INSERT INTO example_database.todo_list (content) VALUES ("and this one more thing");`
 
 ![Alt text](<images/inserting few items in the todo_list.png>)
@@ -282,6 +299,8 @@ try {
     die();
 }
 ```
+
+![Alt text](<images/content in the todo_list.php.png>)
 
 Access the todo_list.php page from web browser
 
