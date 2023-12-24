@@ -46,7 +46,7 @@ Access Nginx from browser
 
 ### Installing MySQL
 
-Install MYSQL package using apt command
+Install MYSQL package using `apt` command
 
 `sudo apt install mysql-server`
 
@@ -94,7 +94,7 @@ Install php-fpm, which stands for “PHP fastCGI process manager”, and tell Ng
 
 ### Configuring Nginx to Use PHP Processor
 
-Create the root web directory for ** my_domain ** as follows:
+Create the root web directory for **my_domain** as follows:
 
 `sudo mkdir /var/www/projectLEMP`
 
@@ -142,7 +142,7 @@ server {
 
 ![Alt text](<images/bare-bones configuration.png>)
 
-Activate the configuration by linking to the config file from Nginx's `sites-enabled` directory:
+Activate the configuration by linking to the configuration file from Nginx's `sites-enabled` directory:
 
 `sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/`
 
@@ -191,7 +191,7 @@ phpinfo();
 
 Open on browser the webpage containing detailed information about the server by visiting the public address set up in the Nginx config file followed by /info.php:
 
-`http://`server_domain_or_IP`/info.php`
+`http://server_domain_or_IP/info.php`
 
 ![Alt text](<images/opening info.php on browser.png>)
 
@@ -206,6 +206,8 @@ First, connect to the MySQL console using the root account and password:
 ![Alt text](<images/login to mysql to retrieve data from mysql database.png>)
 
 Create a new database and user
+
+`mysql> CREATE DATABASE example_database;`
 
 ![Alt text](<images/creating example_database.png>)
 
@@ -250,7 +252,6 @@ CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT,content VARC
 Insert a few rows of content in the table:
 
 `mysql> INSERT INTO example_database.todo_list (content) VALUES ("My first important item");`
-
 `mysql> INSERT INTO example_database.todo_list (content) VALUES ("My second database item");`
 
 `mysql> INSERT INTO example_database.todo_list (content) VALUES ("My third database item")`
@@ -303,5 +304,7 @@ try {
 ![Alt text](<images/content in the todo_list.php.png>)
 
 Access the todo_list.php page from web browser
+
+`http://<Public_domain_or_IP>/todo_list.php`
 
 ![Alt text](<images/accessing todo_list.php on browser.png>)
