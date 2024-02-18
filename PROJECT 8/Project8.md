@@ -77,6 +77,10 @@ Shell script for webserver2
 
 `sudo vi install.sh`
 
+![alt text](<images/install.sh content for server1.PNG>)
+
+![alt text](<images/install.sh content for server2.PNG>)
+
 To close the file type **esc** key then **Shift + :wqa!**
 
 **Step 5:** Change the permissions of the file to make an executable using the command below:
@@ -161,8 +165,6 @@ sudo systemctl restart nginx
 
 ````
 
-![alt text](<images/content of ngnix.sh.PNG>)
-
 ## Steps to Run the Shell Script
 
 **Step 1:** On the terminal, open a file nginx.sh using the command below:
@@ -208,5 +210,5 @@ sudo systemctl restart nginx
 
 ![alt text](<images/access of webserver2 through ngnix load balancer.PNG>)
 
-**Note:** Ip address changed due to a the webserver restart
+**Note:** Ip address changed due to a webserver restart
 
