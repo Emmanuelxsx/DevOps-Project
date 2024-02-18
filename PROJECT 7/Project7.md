@@ -27,7 +27,8 @@ Next, install apache with the command `sudo apt update -y &&  sudo apt install a
 
 ![alt text](<images/install apache.PNG>)
 
-Verify that apache is running using the command below
+Verify that apache is running using the command below:
+
 `sudo systemctl status apache2`
 
 ![alt text](<images/checking the status of apache.PNG>)
