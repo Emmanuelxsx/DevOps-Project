@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources: 
+  MyTestInstance: 
+    Type: AWS::EC2::Instance
+    Metadata: 
+      AWS::CloudFormation::Init: 
+        config: 
+          packages: 
+            :
+          groups: 
+            :
+          users: 
+            :
+          sources: 
+            :
+          files: 
+            :
+          commands: 
+            :
+          services: 
+            :
