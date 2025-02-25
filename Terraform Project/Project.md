@@ -148,9 +148,8 @@
  ![alt text](<images/terraform commands/frontend/implem/using a flagged card.jpg>)
 
  * An order using with an authentic card
-
-![alt text](<images/terraform commands/frontend/using authentic card.png>)
-
+ 
+![alt text](<images/terraform commands/frontend/implem/using authentic card.png>)
 * Fraud alert
 
 ![alt text](<images/terraform commands/frontend/implem/fraud alert.png>)
