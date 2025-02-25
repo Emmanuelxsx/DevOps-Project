@@ -1,2 +1,0 @@
-## Documentation for Amazon CodeGuru
-
